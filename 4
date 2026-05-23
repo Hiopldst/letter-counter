@@ -1,0 +1,10 @@
+original_text = input("введите строку: ")
+original_letter = input("введите букву: ")
+text = original_text.lower()
+search = original_letter.lower()
+count = text.count(search)
+
+if count > 0:
+    print("Буква встречается", count,"раз")
+else:
+    print("такой буквы нету")
